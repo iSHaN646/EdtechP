@@ -49,11 +49,11 @@ app.use(
 cloudinaryConnect()
 
 // Setting up routes
-app.use("/api/v1/auth", userRoutes)
-app.use("/api/v1/profile", profileRoutes)
-app.use("/api/v1/course", courseRoutes)
-app.use("/api/v1/payment", paymentRoutes)
-app.use("/api/v1/reach", contactUsRoute)
+app.use("https://edtechp.onrender.com/auth", userRoutes)
+app.use("https://edtechp.onrender.com/profile", profileRoutes)
+app.use("https://edtechp.onrender.com/course", courseRoutes)
+app.use("https://edtechp.onrender.com/payment", paymentRoutes)
+app.use("https://edtechp.onrender.com/reach", contactUsRoute)
 
 // Testing the server
 app.get("/", (req, res) => {
