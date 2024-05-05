@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL //deployed backend base url
+const BASE_URL = "https://edtechp.onrender.com" //deployed backend base url
 
 // AUTH ENDPOINTS
 export const endpoints = {
